@@ -78,6 +78,7 @@ h2 {
 
         &.azul {
           background-color: var(--azul-botao);
+          transition: background-color 0.4s linear, color 0.4s linear;
 
           &:hover {
             background-color: var(--azul-hover-botao);
@@ -88,6 +89,7 @@ h2 {
 
         &.transparente {
           border: 1px solid var(--branco-principal);
+          transition: background-color 0.4s linear, color 0.4s linear;
 
           &:hover {
             background-color: var(--azul-hover-botao);
@@ -165,6 +167,7 @@ h2 {
 
       &.azul {
         background-color: var(--azul-botao);
+        transition: background-color 0.4s linear, color 0.4s linear;
 
         &:hover {
           background-color: var(--azul-hover-botao);
@@ -250,6 +253,7 @@ h2 {
     & a {
       color: inherit;
       text-decoration: none;
+      transition: color 0.4s linear;
 
       &:hover {
         color: var(--azul-botao);
